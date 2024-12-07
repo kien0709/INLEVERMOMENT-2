@@ -51,7 +51,7 @@ nav a:hover {
 }
 .button {
     display: inline-block;
-    background-color: #ffcc00;
+    background-color: blue;
     color: #333;
     padding: 10px 20px;
     text-decoration: none;
@@ -59,7 +59,7 @@ nav a:hover {
     border-radius: 5px;
 }
 .button:hover {
-    background-color: #e6b800;
+    background-color: blue;
 
 }
 .about {
