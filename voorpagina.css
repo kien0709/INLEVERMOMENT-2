@@ -96,9 +96,7 @@ footer {
 }
 
 
-/* Larger screens (desktops) */
+
 @media (min-width: 1024px) {
-.container {
-    max-width: 800px;
-}
+
 }
