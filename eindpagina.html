@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afspraak Bevestigd - KapperK</title>
+    <link rel="stylesheet" href="eindpagina.css">
+</head>
+<body>
+    <header>
+        <h1>Afspraak Bevestigd</h1>
+    </header>
+    <nav>
+        <a href="http://127.0.0.1:5500/voorpagina.html">Home</a>
+        <a href="http://127.0.0.1:5500/afspraakpagina.html">Nieuwe afspraak</a>
+    </nav>
+    <div class="container">
+        <h2>Bedankt voor je afspraak!</h2>
+        <p>Details van je afspraak:</p>
+        <div class="details">
+            <p id="naam-detail">Naam: Jouw Naam</p>
+            <p id="email-detail">E-mailadres: jouwemail@example.com</p>
+            <p id="telefoon-detail">Telefoonnummer: 0612345678</p>
+            <p id="datum-detail">Datum: 01-01-2024</p>
+            <p id="tijd-detail">Tijd: 12:00</p>
+            <p id="behandeling-detail">Behandeling: Knippen</p>
+            <p id="opmerkingen-detail">Opmerkingen: Geen</p>
+        </div>
+        
+        <script>
+            
+            document.getElementById('naam-detail').textContent = "Naam: Jan de Vries";
+            document.getElementById('email-detail').textContent = "E-mailadres: jan@example.com";
+            document.getElementById('telefoon-detail').textContent = "Telefoonnummer: 0612345678";
+            document.getElementById('datum-detail').textContent = "Datum: 01-01-2024";
+            document.getElementById('tijd-detail').textContent = "Tijd: 14:00";
+            document.getElementById('behandeling-detail').textContent = "Behandeling: Knippen";
+            document.getElementById('opmerkingen-detail').textContent = "Opmerkingen: Tapderfade met lineup.";
+        </script>
+        <p>Maak snel een nieuw afspraak!</p>
+    </div>
+    <footer>
+        <p>© 2024 KapperK. Alle rechten voorbehouden.</p>
+    </footer>
