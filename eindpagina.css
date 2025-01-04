@@ -86,3 +86,16 @@ footer {
     max-width: 800px;
 }
 }
+
+.button {
+    display: inline-block;
+    background-color: blue;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1em;
+    border-radius: 5px;
+}
+.button:hover {
+    background-color: beige
+}

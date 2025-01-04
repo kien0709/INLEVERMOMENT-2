@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lees feedback van onze tevreden klanten of deel je ervaring met KapperK.">
+    <title>KapperK - Klantenfeedback</title>
+    <link rel="stylesheet" href="feedback.css">
+
+</head>
+<body>
+    <header>
+        <h1>KapperK</h1>
+        <p>Friste in town!</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="http://127.0.0.1:5500/voorpagina.html" title="Ga naar de homepage">Home</a></li>
+            <li><a href="http://127.0.0.1:5500/afspraakpagina.html" title="Maak een afspraak">Afspraak maken</a></li>
+            <li><a href="#" title="Bekijk feedback">Klantenfeedback</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <section class="lijst">
+            <h2>Wat zeggen de klanten?</h2>
+            <div class="kaart">
+                <p class="commentaar">"Resultaat was precies wat ik wilde."</p>
+                <p class="gebruiker">- Precious</p>
+            </div>
+            <div class="kaart">
+                <p class="commentaar">"KapperK weet precies wat je nodig hebt!"</p>
+                <p class="gebruiker">- Tyrone</p>
+            </div>
+            <div class="kaart">
+                <p class="commentaar">"Mijn nieuwe favoriete kapper!"</p>
+                <p class="gebruiker">- Mootje van de buurt</p>
+            </div>
+        </section>
+        
+        <section class="forum">
+            <h2>Deel je ervaring</h2>
+            <form action="/submit-feedback" method="post" aria-label="Klantenfeedback formulier">
+                <label for="name">Naam:</label>
+                <input type="text" id="name" name="name" placeholder="naam" required>
+                
+                <label for="email">E-mailadres:</label>
+                <input type="email" id="email" name="email" placeholder="e-mailadres" required>
+                
+                <label for="message">Je feedback:</label>
+                <textarea id="message" name="message" rows="5" placeholder="Schrijf hier je feedback" required></textarea>
+                
+                <button type="submit" aria-label="Feedback verzenden">Verzenden</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>© 2024 KapperK. Alle rechten voorbehouden.</p>
+    </footer>
+    

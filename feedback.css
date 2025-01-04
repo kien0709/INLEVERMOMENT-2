@@ -1,0 +1,134 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+}
+
+header {
+    background-color: yellow;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+
+.lijst {
+    margin-bottom: 40px;
+}
+
+.kaart {
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: white;
+}
+
+.kaart p {
+    margin: 5px 0;
+}
+
+.commentaar {
+    font-size: 1.1em;
+    font-style: italic;
+    color: black;
+}
+
+.gebruiker {
+    font-size: 0.9em;
+    text-align: right;
+    color: grey;
+}
+
+.forum label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.forum input, 
+.forum textarea, 
+.forum button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.forum textarea {
+    resize: none;
+}
+
+.forum button {
+    background-color: yellow;
+    color: black;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.forum button:hover {
+    background-color: yellow;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
